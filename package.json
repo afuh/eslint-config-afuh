@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-afuh",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Personal eslint config",
   "author": "Axel Fuhrmann <axelfuh@gmail.com>",
   "license": "MIT",
@@ -23,7 +23,6 @@
     "eslint": ">= 6",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettir": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1"
   },
