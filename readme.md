@@ -12,7 +12,7 @@ if using **npm < 5**, install the correct versions of each
 package, which are listed by the command:
 
 ```sh
-npm info "eslint-config-airbnb-base@latest" peerDependencies
+npm info "eslint-config-afuh@latest" peerDependencies
 ```
 
 ## Usage
