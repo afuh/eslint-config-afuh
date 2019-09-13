@@ -1,4 +1,4 @@
-# eslint-congfig-afuh
+# eslint-config-afuh
 These are my settings for ESlint. 
 
 ## Install
