@@ -1,6 +1,6 @@
 module.exports = {
   "no-shadow": [
-    "error",
+    "warn",
     {
       "hoist": "all",
       "allow": [
