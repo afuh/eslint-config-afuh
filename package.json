@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-afuh",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "description": "Personal eslint config",
   "author": "Axel Fuhrmann <axelfuh@gmail.com>",
   "license": "MIT",
