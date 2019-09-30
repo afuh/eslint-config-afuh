@@ -13,6 +13,7 @@ module.exports = {
       ]
     }
   ],
+  "no-return-await": "error",
   "no-param-reassign": [2, { "props": false } ],
   "no-whitespace-before-property": "error",
   "no-await-in-loop": 0,
