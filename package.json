@@ -1,22 +1,23 @@
 {
   "name": "eslint-config-afuh",
-  "version": "0.0.34",
+  "version": "0.1.0",
   "description": "Personal eslint config",
   "author": "Axel Fuhrmann <axelfuh@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "repository": "https://github.com/afuh/eslint-config-afuh",
   "keywords": [
     "eslint",
     "config"
   ],
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1",
-    "jest": "^24.9.0"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.2",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "jest": "^26.1.0"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.1",

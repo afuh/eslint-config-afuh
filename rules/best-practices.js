@@ -13,8 +13,9 @@ module.exports = {
       ]
     }
   ],
+  "import/order": "error",
   "no-return-await": "error",
-  "no-param-reassign": [2, { "props": false } ],
+  "no-param-reassign": [2, { "props": false }],
   "no-whitespace-before-property": "error",
   "no-await-in-loop": 0,
   "no-lonely-if": "error",
@@ -27,7 +28,7 @@ module.exports = {
   "no-console": "off",
   "object-shorthand": "error",
   "prefer-arrow-callback": "warn",
-  "prefer-const": ["error", { "destructuring": "all" } ],
+  "prefer-const": ["error", { "destructuring": "all" }],
   "prefer-destructuring": [
     "warn",
     {

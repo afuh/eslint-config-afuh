@@ -1,5 +1,5 @@
 # eslint-config-afuh
-These are my settings for ESlint. 
+These are my settings for ESlint.
 
 ## Install
 
@@ -8,7 +8,7 @@ If using **npm 5+**, use this shortcut
 npx install-peerdeps --dev eslint-config-afuh
 ```
 
-if using **npm < 5**, install the correct versions of each 
+if using **npm < 5**, install the correct versions of each
 package, which are listed by the command:
 
 ```sh
@@ -17,30 +17,46 @@ npm info "eslint-config-afuh@latest" peerDependencies
 
 ## Usage
 
-### Via `.babelrc` 
+### Create an `.eslintrc` file with:
 
 ```json
 {
-  "extends": ["afuh"]
+  "extends": "afuh"
 }
 ```
 
-### Via `package.json`
+If you are using React
 ```json
 {
-  "eslintConfig": {
-    "extends": ["afuh"]
-  }
+  "extends": "afuh/react"
 }
 ```
 
 ## Settings
-Add or overwrite [ESlint rules](https://eslint.org/docs/rules/). 
+Add or overwrite [ESlint rules](https://eslint.org/docs/rules/).
 ```json
 {
-  "extends": ["afuh"],
+  "extends": "afuh",
   "rules": {
     "more-rules-here": 1
+  }
+}
+```
+
+### Prettier
+If you want to use Prettier add the following packages:
+
+```sh
+npm i --save-dev prettier eslint-plugin-prettier eslint-config-prettier
+```
+
+Update the `.eslintrc` file.
+```json
+{
+  "extends": ["afuh", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
   }
 }
 ```

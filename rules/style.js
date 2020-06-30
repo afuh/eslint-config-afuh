@@ -1,12 +1,9 @@
-const quotes = "single"
-
 module.exports = {
-  "max-len": ["error", 120, 2, { "ignoreUrls": true } ],
-  "linebreak-style": [ 0 ],
+  "max-len": ["error", 120, 2, { "ignoreUrls": true }],
+  "linebreak-style": [0],
   "indent": ["error", 2],
   "comma-dangle": ["error", "never"],
-  "quotes": ["error", quotes, { "avoidEscape": true } ],
-  "jsx-quotes": ["error", "prefer-" + quotes],
+  "quotes": ["error", "single", { "avoidEscape": true }],
   "block-spacing": "error",
   "comma-spacing": [
     "error",
@@ -16,7 +13,7 @@ module.exports = {
     }
   ],
   "semi": ["error", "never"],
-  "keyword-spacing": ["error", { "before": true } ],
+  "keyword-spacing": ["error", { "before": true }],
   "object-curly-spacing": ["error", "always"],
   "array-bracket-spacing": [
     "error",
