@@ -8,7 +8,7 @@ module.exports = {
   "react/prop-types": [
     "error",
     {
-      "ignore": ["match", "history", "children"]
+      "ignore": ["match", "history", "children", "element"]
     }
   ]
 }
