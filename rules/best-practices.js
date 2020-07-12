@@ -2,7 +2,6 @@ module.exports = {
   "no-shadow": [
     "warn",
     {
-      "hoist": "all",
       "allow": [
         "resolve",
         "reject",
