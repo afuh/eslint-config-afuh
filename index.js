@@ -12,14 +12,10 @@ module.exports = {
     node: true,
     jest: true
   },
-  plugins: [
-    "jsx-a11y"
-  ],
   extends: [
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:jsx-a11y/recommended"
   ],
   rules: {
     strict: 0,
