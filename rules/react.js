@@ -4,7 +4,9 @@ module.exports = {
   "react-hooks/exhaustive-deps": "warn",
   "react/no-deprecated": "off",
   "react/display-name": "off",
-  "import/no-anonymous-default-export": "error",
+  "import/no-anonymous-default-export": ["error", {
+    "allowObject": true
+  }]
   "react/prop-types": [
     "error",
     {
