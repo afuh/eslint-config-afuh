@@ -6,7 +6,7 @@ module.exports = {
   "react/display-name": "off",
   "import/no-anonymous-default-export": ["error", {
     "allowObject": true
-  }]
+  }],
   "react/prop-types": [
     "error",
     {
