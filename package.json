@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-afuh",
-  "version": "0.1.32",
+  "version": "0.1.33",
   "description": "Personal eslint config",
   "author": "Axel Fuhrmann <axelfuh@gmail.com>",
   "license": "MIT",
@@ -12,11 +12,11 @@
   ],
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.5.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.2",
-    "eslint-plugin-react-hooks": "^2.5.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "jest": "^26.1.0"
   },
   "peerDependencies": {
@@ -24,8 +24,8 @@
     "eslint": ">= 6",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1"
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8"
   },
   "scripts": {
     "test": "jest"
