@@ -1,4 +1,5 @@
 module.exports = {
+  "import/order": "error",
   "jsx-quotes": ["error", "prefer-single"],
   "react-hooks/rules-of-hooks": "error",
   "react-hooks/exhaustive-deps": "warn",
