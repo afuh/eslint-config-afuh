@@ -43,7 +43,7 @@ Add or overwrite [ESlint rules](https://eslint.org/docs/rules/).
 }
 ```
 
-### Prettier
+## Prettier
 If you want to use Prettier add the following packages:
 
 ```sh
@@ -60,3 +60,10 @@ Update the `.eslintrc` file.
   }
 }
 ```
+
+## Install everything
+```sh
+npx eslint-config-afuh
+```
+
+This is going to install `eslint-config-afuh`, the peer dependencies and Prettier. It's going to also generate a couple of config [files](https://github.com/afuh/eslint-config-afuh/tree/master/install/templates) if they don't exist.
