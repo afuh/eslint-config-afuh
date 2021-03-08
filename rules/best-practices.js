@@ -12,6 +12,7 @@ module.exports = {
       ]
     }
   ],
+  "no-console": "error",
   "no-return-await": "error",
   "no-param-reassign": [2, { "props": false }],
   "no-whitespace-before-property": "error",
