@@ -24,7 +24,6 @@ module.exports = {
   "no-else-return": "error",
   "no-multi-spaces": "error",
   "no-eval": "error",
-  "no-console": "off",
   "object-shorthand": "error",
   "prefer-arrow-callback": "warn",
   "prefer-const": ["error", { "destructuring": "all" }],
